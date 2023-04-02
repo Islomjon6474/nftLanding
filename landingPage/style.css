@@ -196,8 +196,16 @@ p {
 
 .svyacheniye11 {
   position: absolute;
-  width: 320px;
+  width: 323px;
   height: 457.21px;
   z-index: -1;
   top: 3650px;
+}
+@media screen and (min-width: 321px) {
+  .svyacheniye6,
+  .svyacheniye7,
+  .svyacheniye10,
+  .svyacheniye11 {
+    display: none;
+  }
 }
