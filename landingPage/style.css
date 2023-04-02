@@ -202,10 +202,7 @@ p {
   top: 3650px;
 }
 @media screen and (min-width: 321px) {
-  .svyacheniye6,
-  .svyacheniye7,
-  .svyacheniye10,
-  .svyacheniye11 {
-    display: none;
+  .svyacheniya {
+    display: none !important;
   }
 }
