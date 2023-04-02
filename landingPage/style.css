@@ -90,7 +90,7 @@ p {
   line-height: 16px;
 }
 .cont {
-  width: 320px;
+  max-width: 320px;
   z-index: 1;
 }
 .pageNum {
@@ -204,5 +204,14 @@ p {
 @media screen and (min-width: 321px) {
   .svyacheniya {
     display: none !important;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .svyacheniye11 {
+    width: 100% !important;
+  }
+  .group318 {
+    display: none;
   }
 }
