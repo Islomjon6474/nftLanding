@@ -5,7 +5,12 @@
   /* font-family: "Rubik", sans-serif !important; */
   word-break: break-all;
 }
-
+header {
+  position: sticky;
+}
+.headDiv {
+  max-width: 320px;
+}
 p {
   margin-bottom: 0;
 }
@@ -119,8 +124,14 @@ p {
   font-size: 14px;
   line-height: 24px;
 }
-.firstSection {
-  position: relative;
+#firstSection {
+  height: fit-content !important;
+  background-image: url("./images/Component.png");
+  background-color: #ffffff;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .group249 {
   position: absolute;
